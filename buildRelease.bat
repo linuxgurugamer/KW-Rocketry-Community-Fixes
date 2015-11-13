@@ -48,6 +48,7 @@ mkdir %d%
 
 copy *.cfg %HOMEDIR%\install\Gamedata\KWCommunityFixes
 copy README.txt %HOMEDIR%\install\Gamedata\KWCommunityFixes
+copy README-1-0-5.txt %HOMEDIR%\install\Gamedata\KWCommunityFixes
 copy KWCommunityFixes.version %HOMEDIR%\install\Gamedata\KWCommunityFixes
 
 %HOMEDRIVE%
