@@ -29,29 +29,29 @@ set d=%HOMEDIR\install
 if exist %d% goto one
 mkdir %d%
 :one
-set d=%HOMEDIR%\install\Gamedata
+set d=%HOMEDIR%\install\GameData
 if exist %d% goto two
 mkdir %d%
 :two
-set d=%HOMEDIR%\install\Gamedata\KWCommunityFixes
+set d=%HOMEDIR%\install\GameData\KWCommunityFixes
 if exist %d% goto three
 mkdir %d%
 :three
-set d=%HOMEDIR%\install\Gamedata\KWCommunityFixes\Plugin
+set d=%HOMEDIR%\install\GameData\KWCommunityFixes\Plugin
 if exist %d% goto four
 mkdir %d%
 :four
-set d=%HOMEDIR%\install\Gamedata\KWCommunityFixes\Textures
+set d=%HOMEDIR%\install\GameData\KWCommunityFixes\Textures
 if exist %d% goto five
 mkdir %d%
 :five
 
-copy *.cfg %HOMEDIR%\install\Gamedata\KWCommunityFixes
-copy README.txt %HOMEDIR%\install\Gamedata\KWCommunityFixes
-copy README-1-0-5.txt %HOMEDIR%\install\Gamedata\KWCommunityFixes
-copy KWCommunityFixes.version %HOMEDIR%\install\Gamedata\KWCommunityFixes
+copy *.cfg %HOMEDIR%\install\GameData\KWCommunityFixes
+copy README.txt %HOMEDIR%\install\GameData\KWCommunityFixes
+copy README-1-0-5.txt %HOMEDIR%\install\GameData\KWCommunityFixes
+copy KWCommunityFixes.version %HOMEDIR%\install\GameData\KWCommunityFixes
 
 %HOMEDRIVE%
 cd %HOMEDIR%\install
-%ZIP% a -tzip %RELEASEDIR%\KW-Rocketry-Community-Fixes-%VERSION%.zip Gamedata\KWCommunityFixes
+%ZIP% a -tzip %RELEASEDIR%\KW-Rocketry-Community-Fixes-%VERSION%.zip GameData\KWCommunityFixes
 
