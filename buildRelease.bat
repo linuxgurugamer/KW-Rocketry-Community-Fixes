@@ -46,6 +46,8 @@ if exist %d% goto five
 mkdir %d%
 :five
 
+del %HOMEDIR%\install\GameData\KWCommunityFixes
+del %HOMEDIR%\install\GameData\KWCommunityFixes\Plugin
 copy *.cfg %HOMEDIR%\install\GameData\KWCommunityFixes
 copy README.txt %HOMEDIR%\install\GameData\KWCommunityFixes
 copy README-1-0-5.txt %HOMEDIR%\install\GameData\KWCommunityFixes
@@ -53,5 +55,6 @@ copy KWCommunityFixes.version %HOMEDIR%\install\GameData\KWCommunityFixes
 
 %HOMEDRIVE%
 cd %HOMEDIR%\install
+del  %RELEASEDIR%\KW-Rocketry-Community-Fixes-%VERSION%.zip
 %ZIP% a -tzip %RELEASEDIR%\KW-Rocketry-Community-Fixes-%VERSION%.zip GameData\KWCommunityFixes
 
