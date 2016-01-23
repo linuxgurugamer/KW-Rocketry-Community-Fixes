@@ -161,3 +161,4 @@ Date:   Mon Jul 27 13:00:43 2015 -0400
 0.4.5	When B9 AeroSpace is installed and CommunityTechTree is not, the node "Experimental Rocketry", where the last engines of both mods sit, is duplicated at the same position.
 
 This fix handles this situation by preventing any action from KW Community Patch but still adding the requirement to unlock the "High Performance Fuel System" node.
+	Added MiniAVC.dll
