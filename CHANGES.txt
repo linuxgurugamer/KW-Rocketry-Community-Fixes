@@ -1,0 +1,164 @@
+commit bd251ecc83df777c608653cb0dbbda9cdabedd1a
+Merge: d171cac 4ffed05
+Author: linuxgurugamer <linuxgurugamer@gmail.com>
+Date:   Fri Jan 22 15:39:09 2016 -0500
+
+    Merge pull request #6 from blackleg/master
+    
+    Add ModuleManager Patch to create new parts
+
+commit 4ffed05f544e65d75a785c64dd5bafbd07af299d
+Author: blackleg <blackleg@openaliasbox.org>
+Date:   Fri Jan 22 20:00:57 2016 +0100
+
+    Add Community Parts Patch
+
+commit d171cac2a026265608929d7be0d6ca3bd0334064
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Mon Dec 21 08:06:16 2015 -0500
+
+    Fixed release script to clear out old directory before doing install/release
+    build.  Old directory had an old file which was causing problems
+
+commit e61d6f1e825a4ba851ced6d42794b72c9282f340
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Sat Dec 5 23:01:17 2015 -0500
+
+    Updated version
+
+commit 03806088484b1982ef1e2bee50083db8a9a68e05
+Merge: 957e066 c72a9c3
+Author: linuxgurugamer <linuxgurugamer@gmail.com>
+Date:   Sat Dec 5 22:52:05 2015 -0500
+
+    Merge pull request #5 from blowfishpro/master
+    
+    Various tweaks
+
+commit c72a9c3019e7ba6c875b2057d6f95c32db32c730
+Author: blowfishpro <blowfishpro@yahoo.com>
+Date:   Fri Dec 4 22:19:22 2015 -0800
+
+    Adjust ModuleTestSubject
+    
+    The Titan T1 is definitely a lower stage engine, and the Titan V is more
+    of an upper stage.
+
+commit 5aee5af2eb95bfa6c63568431b458c236a5d9e01
+Author: blowfishpro <blowfishpro@yahoo.com>
+Date:   Fri Dec 4 22:18:03 2015 -0800
+
+    Bring back engine fairings post 1.0.5
+    
+    The stock ModuleJettison now supports toggling the fairings, so there's
+    no reason to have this anymore.
+
+commit 23e3b8f06b44f0f560a55402aabf296e79216cff
+Author: blowfishpro <blowfishpro@yahoo.com>
+Date:   Fri Dec 4 22:14:15 2015 -0800
+
+    Delete redundant patch
+    
+    100% of this also exists in KWPatch-interstage.cfg
+
+commit 957e066b0da3efd7e24a099b516982ae08a70a37
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Sun Nov 29 09:31:44 2015 -0500
+
+    Updated version number
+
+commit e5c63cda8de1610cf9d5d3b24556a4a6e3167846
+Merge: 5352b19 eff6cf5
+Author: linuxgurugamer <linuxgurugamer@gmail.com>
+Date:   Sun Nov 29 09:15:50 2015 -0500
+
+    Merge pull request #4 from RaceCondition/patch-1
+    
+    Update buildRelease.bat
+
+commit eff6cf579628d6dbd6e1d177bf387cc6773e0676
+Author: Paul Smith <paulsmith433@gmail.com>
+Date:   Wed Nov 25 21:10:24 2015 +0000
+
+    Update buildRelease.bat
+    
+    Case of folder name "Gamedata" is actually GameData on Linux. Windows will ignore the case but as it was, this mod's content was ending up in Gamedata/ whereas all other mods existed in GameData/ and therefore the mod was not being loaded.
+
+commit 5352b19e0c2efabfb2d3056485af5d8cc7070ac4
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Fri Nov 13 12:17:22 2015 -0500
+
+    Changes for 1.0.5 compatiblity
+
+commit 2ecdcb18278105c740f483f92e5f6822f1ff1e5d
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Thu Sep 24 13:37:44 2015 -0400
+
+    updated version
+
+commit d07008bb19e45112b6361849d7378b85b5c0f7a6
+Merge: f5bad9e a643590
+Author: linuxgurugamer <linuxgurugamer@gmail.com>
+Date:   Fri Aug 28 10:21:12 2015 -0400
+
+    Merge pull request #2 from NathanKell/master
+    
+    Switch from AFTER[KW] to FIRST
+
+commit a643590100838da0e02a40e7a5cc0cd65fb410a3
+Author: NathanKell <nathankell@gmail.com>
+Date:   Thu Aug 27 15:54:51 2015 -0400
+
+    Finish switching to FIRST
+
+commit 95d04314091430be56a5d4ffd0ad8fa5d1dcdf8d
+Author: NathanKell <nathankell@gmail.com>
+Date:   Thu Aug 27 15:54:03 2015 -0400
+
+    Continue switching to FIRST
+
+commit 2382276c8bfb2deb242ae9d982e3f4dcbd3885a4
+Author: NathanKell <nathankell@gmail.com>
+Date:   Thu Aug 27 15:53:21 2015 -0400
+
+    Start switching to FIRST
+
+commit f5bad9e121223bcc03c9c5933e99c948d60de0c1
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Sun Aug 2 21:33:02 2015 -0400
+
+    Changes submitted by blackleg
+    	Fixed KW Petal Adapter Nodes
+    	Fixed 5.00m Interstage Node
+
+commit f808273c34784bebebd0eba10c00273d0d5b35ae
+Merge: 3f5a193 fb257db
+Author: linuxgurugamer <linuxgurugamer@gmail.com>
+Date:   Sun Aug 2 20:18:17 2015 -0400
+
+    Merge pull request #1 from blackleg/master
+    
+    Fixed KW Petal Adapter Nodes
+
+commit fb257db17d9d7d6e943be72761154e563f5a7a09
+Author: Blackleg <blackleg@openaliasbox.org>
+Date:   Mon Aug 3 00:53:07 2015 +0200
+
+    Fixed 5.00m Interstage Node
+
+commit 1b6721532c3ce27b03a261152a4034ec06427b7b
+Author: Blackleg <blackleg@openaliasbox.org>
+Date:   Sun Aug 2 21:07:43 2015 +0200
+
+    Fixed KW Petal Adapter Nodes
+
+commit 3f5a1933e952ad41471d6eb879a2518c0e8f6c39
+Author: Jonathan Bayer <linuxgurugamer@gmail.com>
+Date:   Mon Jul 27 13:00:43 2015 -0400
+
+    Initial release
+
+0.4.5	When B9 AeroSpace is installed and CommunityTechTree is not, the node "Experimental Rocketry", where the last engines of both mods sit, is duplicated at the same position.
+
+This fix handles this situation by preventing any action from KW Community Patch but still adding the requirement to unlock the "High Performance Fuel System" node.
+	Added MiniAVC.dll
