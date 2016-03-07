@@ -68,4 +68,12 @@ Date:   Fri Jan 22 15:39:09 2016 -0500
 	Added MiniAVC.dll
 
 0.4.6	Fix Force direction in KW3mPetalAdapter, thank you blackleg
+
+0.4.7	Patch from blackleg: In the community parts patch add tac life support
+
+0.4.8	updated version file
+
+0.4.9	Linuxgurugamer:  Added KWPatch-Bulkheads.cfg to add bulkheadProfiles
+		to all the parts missing.  This will allow other mods to sort based on size,
+		such as FilterExtensions
 	Reformatted the CHANGES.txt to put in date order
